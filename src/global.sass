@@ -1,0 +1,181 @@
+// @import "~bulma/sass/utilities/initial-variables"
+@import "~bulma"
+// Config vars
+@import ./constants.sass
+
+.button
+    color: $black
+    border: 2px solid $black
+    border-radius: 0
+    margin: 0 20px 0 0
+    -webkit-transition: all .15s ease
+    transition: all .15s ease
+
+.hero-button
+    box-shadow: 8px 8px 0 $primary
+
+.button:hover
+    color: $primary-invert
+    background: $black
+    border: 2px solid $black
+
+.input, .textarea
+    border: 2px solid #fff
+    border-radius: 5px
+
+.content .taglist
+    list-style: none
+    margin-bottom: 0
+    margin-left: 0
+    margin-right: 1.5rem
+    margin-top: 1.5rem
+    display: flex
+    flex-wrap: wrap
+    justify-content: left
+    align-items: center
+li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+.navbar
+    background: $primary-invert
+    padding: 0.5rem
+    position: fixed
+    width: 100%
+
+.navbar-item
+    padding: 0.25rem 0.75rem
+    margin: 0.5rem
+
+.navbar-item .icon
+    color: $primary
+// Override for use of svg's from https://simpleicons.org/
+.icon svg
+    width: 1.5rem
+    height: 1.5rem
+    fill: currentColor
+.navbar-brand .navbar-item.logo
+    padding: 0 1rem
+
+//Menu overrides
+$menu-item-color: $white-ter
+$menu-item-hover-color: $black !important
+$menu-item-hover-background-color: $black
+$menu-item-active-color: $primary-invert
+$menu-item-active-background-color:	$primary-invert
+$menu-list-border-left: 1px solid $primary-invert
+$menu-label-color: $white-ter
+
+.menu-label
+    font-size: 1em !important
+    text-align: left
+.menu-list
+    list-style: none !important
+    text-align: left
+.social
+    padding: 2em
+.social a
+    padding: .5em .5em .3em .5em
+    border-radius: 1em
+    background-color: $white-ter
+    margin: .5em
+    width: 1em
+    height: 1em
+    vertical-align: middle
+    display: inline
+
+// sections
+#projects
+    background: $primary
+    color: $primary-invert
+    position: relative
+    z-index: 1
+
+    &:before,
+    &:after
+        background: inherit
+        content: ''
+        display: block
+        height: 50%
+        left: 0
+        position: absolute
+        right: 0
+        z-index: -1
+        -webkit-backface-visibility: hidden
+
+    &:before
+        top: 0
+        transform: skewY(-1.5deg)
+        transform-origin: 0
+
+    &:after
+        bottom: 0
+        transform: skewY(-1.5deg)
+        transform-origin: 100%
+
+    .card
+        border-radius: 5px
+        > *
+            margin-top: 20px
+        .button
+            color: $primary
+            border: 2px solid $primary
+        .button:hover
+            color: $primary-invert
+            background: $primary
+            border: 2px solid $primary
+
+#skills-list
+    margin: 20px 0
+
+    .column
+        font-size: 1.5em
+        min-width: calc(100%/4)
+        padding: 20px
+
+#contact
+    background: $primary
+    color: $primary-invert
+    position: relative
+    z-index: 1
+
+    &:before
+        background: inherit
+        content: ''
+        display: block
+        height: 50%
+        left: 0
+        position: absolute
+        right: 0
+        z-index: -1
+        -webkit-backface-visibility: hidden
+        top: 0
+        transform: skewY(-1.5deg)
+        transform-origin: 0
+
+#contact label
+    color: $primary-invert
+
+// blog roll
+.blog-list-item.is-featured
+    background-color: $primary-invert
+.blog-list-item header
+    display: flex
+    margin-bottom: 1em
+.blog-list-item .featured-thumbnail
+    flex-basis: 35%
+    margin: 0 1.5em 0 0
+
+// responsiveness
++tablet-only
+.blog-list-item .featured-thumbnail
+    flex-basis: 50%
+
++mobile
+.blog-list-item header
+    display: block
+.blog-list-item .featured-thumbnail
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
