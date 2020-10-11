@@ -65,9 +65,14 @@ collections:
                         { label: Image, name: image, widget: image },
                         { label: Title, name: title, widget: text },
                         { label: Text, name: text, widget: text },
-                        { label: Link, name: link, widget: text },
+                        { label: Link, name: link, widget: string },
                       ],
                   },
                 ],
             }
-          - { label: Skills, name: skills, widget: list, fields: [] }
+          - {
+              label: Skills,
+              name: skills,
+              widget: list,
+              fields: [{ label: Text, name: text, widget: text }],
+            }
