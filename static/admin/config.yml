@@ -70,9 +70,4 @@ collections:
                   },
                 ],
             }
-          - {
-              label: Skills,
-              name: skills,
-              widget: list,
-              fields: []
-            },
+          - { label: Skills, name: skills, widget: list, fields: [] }
