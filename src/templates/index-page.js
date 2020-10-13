@@ -117,7 +117,7 @@ export const IndexPageTemplate = ({
               <div id="skills-list" className="columns is-multiline">
                 {skills.map((item, index) => (
                   <div className="column has-text-centered" key={index}>
-                    {item}
+                    {item.text}
                   </div>
                 ))}
               </div>
@@ -198,7 +198,9 @@ export const pageQuery = graphql`
             repo
           }
         }
-        skills
+        skills {
+          text
+        }
       }
     }
   }

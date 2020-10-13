@@ -12,7 +12,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         heading={data.heading}
         subheading={data.subheading}
         projects={data.projects || { projectsList: [] }}
-        // skills={data.skills || { skills: [] }}
+        skills={data.skills || { skills: [] }}
       />
     );
   } else {
