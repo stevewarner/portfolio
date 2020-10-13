@@ -20,12 +20,12 @@ projects:
   projectsList:
     - image: /img/synth.png
       title: Tone.js Synth
-      text: Play a synthesizer in your browser.
+      text: Play a synthesizer in your browser
       link: https://www.stevenwarner.me/reactSynth/
       repo: https://github.com/stevewarner/reactSynth
     - image: /img/metronome.png
       title: Metronome
-      text: Play and set a metronome in your browser.
+      text: Play and set a metronome in your browser
       link: https://www.stevenwarner.me/metronome/
       repo: https://github.com/stevewarner/metronome
     - image: /img/ukechords.png
