@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import "../global.sass";
 
 import useSiteMetadata from "./SiteMetadata";
-import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -22,14 +21,6 @@ const TemplateWrapper = ({ children }) => {
         />
 
         <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
-        />
       </Helmet>
       <Navbar />
       <div>{children}</div>
