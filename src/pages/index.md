@@ -21,21 +21,21 @@ projects:
     - image: /img/synth.png
       title: Tone.js Synth
       text: Play a synthesizer in your browser
-      link: https://www.stevenwarner.me/reactSynth/
+      link: https://stevewarner.github.io/reactSynth/
       repo: https://github.com/stevewarner/reactSynth
     - image: /img/metronome.png
       title: Metronome
       text: Play and set a metronome in your browser
-      link: https://www.stevenwarner.me/metronome/
+      link: https://stevewarner.github.io/metronome/
       repo: https://github.com/stevewarner/metronome
     - image: /img/ukechords.png
       title: Ukulele Chords
       text: React app to look up soprano ukulele chord charts
-      link: https://www.stevenwarner.me/ukeChords/
+      link: https://stevewarner.github.io/ukeChords/
       repo: https://github.com/stevewarner/ukeChords
     - image: /img/webaudio.png
       title: Web Audio Piano
       text: Playable piano using Web Audio API
-      link: https://www.stevenwarner.me/synthesthesia/
+      link: https://stevewarner.github.io/synthesthesia/
       repo: https://github.com/stevewarner/synthesthesia
 ---

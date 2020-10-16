@@ -23,7 +23,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div style={{ paddingTop: "5.25rem" }}>{children}</div>
     </div>
   );
 };

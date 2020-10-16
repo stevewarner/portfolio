@@ -93,15 +93,11 @@ const Navbar = class extends React.Component {
                   <img src={linkedin} alt="Linkedin" />
                 </span>
               </a>
-              <a
-                className="navbar-item"
-                href="#contact"
-                rel="noopener noreferrer"
-              >
+              <Link className="navbar-item" to="/#contact">
                 <span className="icon">
                   <img src={contact} alt="Contact" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
