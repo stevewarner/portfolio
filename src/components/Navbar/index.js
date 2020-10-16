@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import github from "../../img/github-icon.svg";
 import linkedin from "../../img/linkedin-icon.svg";
@@ -40,9 +41,9 @@ const Navbar = class extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item" href="#top" rel="noopener noreferrer">
+            <Link className="navbar-item" to="/">
               <span id="navbar-logo">SW</span>
-            </a>
+            </Link>
             {/* Hamburger menu */}
             <button
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -61,27 +62,15 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <a
-                className="navbar-item"
-                href="#projects"
-                rel="noopener noreferrer"
-              >
+              <Link className="navbar-item" to="/#projects">
                 projects
-              </a>
-              <a
-                className="navbar-item"
-                href="#skills"
-                rel="noopener noreferrer"
-              >
+              </Link>
+              <Link className="navbar-item" to="/#skills">
                 skills
-              </a>
-              <a
-                className="navbar-item"
-                href="#contact"
-                rel="noopener noreferrer"
-              >
+              </Link>
+              <Link className="navbar-item" to="/#contact">
                 contact
-              </a>
+              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
