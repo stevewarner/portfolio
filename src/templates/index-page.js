@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
@@ -28,13 +29,9 @@ export const IndexPageTemplate = ({
                 <div className="section">
                   <h1 className="title">{heading}</h1>
                   <h3 className="subtitle">{subheading}</h3>
-                  <a
-                    className="button hero-button"
-                    href="#contact"
-                    rel="noopener noreferrer"
-                  >
+                  <Link className="button hero-button" to="/#contact">
                     Contact me
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="column">
