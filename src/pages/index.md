@@ -3,18 +3,6 @@ templateKey: index-page
 image: /img/home-jumbotron.jpg
 heading: Hi, my name is Steven Warner
 subheading: I'm a front end developer in San Francisco
-skills:
-  - text: React
-  - text: Redux
-  - text: Node.js
-  - text: Gatsby
-  - text: Netlify
-  - text: Jest
-  - text: HTML
-  - text: CSS
-  - text: Javascript
-  - text: Sass
-  - text: Webpack
 projects:
   heading: Projects
   projectsList:
@@ -38,4 +26,17 @@ projects:
       text: Playable piano using Web Audio API
       link: https://stevewarner.github.io/synthesthesia/
       repo: https://github.com/stevewarner/synthesthesia
+skills:
+  - text: React
+  - text: Redux
+  - text: Node.js
+  - text: Gatsby
+  - text: Netlify
+  - text: Jest
+  - text: HTML
+  - text: CSS
+  - text: Javascript
+  - text: Sass
+  - text: Webpack
+  - text: Babel
 ---
