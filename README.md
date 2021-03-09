@@ -1,3 +1,3 @@
 # Gatsby + Netlify CMS Portfolio
 
-https://stevenwarner.netlify.app/
+https://stevenwarner.me/
