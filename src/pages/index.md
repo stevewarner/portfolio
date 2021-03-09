@@ -21,10 +21,10 @@ projects:
       text: React app to look up soprano ukulele chord charts
       link: https://stevewarner.github.io/ukeChords/
       repo: https://github.com/stevewarner/ukeChords
-    - image: /img/webaudio.png
-      title: Web Audio Piano
-      text: Playable piano using Web Audio API
-      link: https://stevewarner.github.io/synthesthesia/
+    - image: /img/modeschord.png
+      title: Chord Progression Cheat Sheet
+      text: Music theory notes on the chords of each mode
+      link: https://stevewarner.github.io/chord-cheat-sheet/
       repo: https://github.com/stevewarner/synthesthesia
 skills:
   - text: React
