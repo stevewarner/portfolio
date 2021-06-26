@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Steven Warner | Front-end Developer",
-    description: "This portfolio was built with Gatsby, and Netlify CMS.",
+    title: "Steven Warner | Front End Developer",
+    description: "Steven Warner is a Front End Developer based in San Francisco",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
